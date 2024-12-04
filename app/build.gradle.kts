@@ -10,6 +10,7 @@ plugins {
     application
 }
 
+
 dependencies {
     // Use JUnit Jupiter for testing.
     testImplementation(libs.junit.jupiter)
