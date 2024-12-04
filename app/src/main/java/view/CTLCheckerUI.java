@@ -66,11 +66,7 @@ public class CTLCheckerUI extends JFrame {
         JPanel membersPanel = new JPanel(new FlowLayout(FlowLayout.CENTER));
         membersPanel.setBackground(backgroundColor);
         JTextArea membersTextArea = new JTextArea(
-            "Group Members:\n" +
-            "Sai Shanmukkha Surapaneni              siv30@txstate.edu\n" +
-            "Syaila Syam Sunder Thambabathula       oko17@txstate.edu\n" +
-            "Venkata Praveen Kumar Sana             qno18@txstate.edu\n" +
-            "Sai Bharani Bikkina                    jfi18@txstate.edu"
+            ""
         );
         membersTextArea.setFont(new Font("Monospaced", Font.PLAIN, 14));
         membersTextArea.setEditable(false);
