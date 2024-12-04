@@ -9,7 +9,8 @@ plugins {
     // Apply the application plugin to add support for building a CLI application in Java.
     application
 }
-
+    "java.compile.nullAnalysis.mode": "automatic",
+    "java.configuration.updateBuildConfiguration": "interactive"
 
 dependencies {
     // Use JUnit Jupiter for testing.
