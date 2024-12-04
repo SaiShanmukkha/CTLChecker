@@ -11,10 +11,6 @@ public final class KripkeStructure {
     public List<Transition> transitions;
     public Set<State> states;
     public Set<String> atoms;
-
-    
-    
-    
     
     public KripkeStructure(String kripkeStructureDefinition) {
         transitions = new ArrayList<>();
