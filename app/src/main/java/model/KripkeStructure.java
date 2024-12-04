@@ -1,6 +1,5 @@
 package model;
 
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.LinkedHashSet;
@@ -11,8 +10,7 @@ public final class KripkeStructure {
     public List<Transition> transitions;
     public Set<State> states;
     public Set<String> atoms;
-    
-    
+
     public KripkeStructure(String kripkeStructureDefinition) {
         transitions = new ArrayList<>();
         states = new LinkedHashSet<>();
